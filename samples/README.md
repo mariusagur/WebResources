@@ -1,4 +1,4 @@
-# TypeScript samples
+# How to contribute
 Create a new path/folder for each sample
 Append this readme with a short description of your sample
 Optionally create a separate readme for your sample to explain in detail how it works and intended functionality
