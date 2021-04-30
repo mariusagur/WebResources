@@ -1,7 +1,19 @@
 // tsconfig.json
 {
     "compilerOptions": {
-      "lib": [ "es2015" ],
-      "outDir": "bin"
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "bin",
+        "lib": [
+            "es2015"
+        ],
+    },
+    "typeAcquisition": {
+        "include": [
+            "xrm"
+        ]
     }
-  }
+}
